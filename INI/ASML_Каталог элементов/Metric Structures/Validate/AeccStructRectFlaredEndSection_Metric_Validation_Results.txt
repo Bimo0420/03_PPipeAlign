@@ -1,0 +1,27 @@
+Начать проверку элемента | AeccStructRectFlaredEndSection_Metric
+
+Начать тест автопроверки семейства элементов
+Внутренняя проверка семейства элементов завершена, ошибок не обнаружено
+OK: Параметр домена элемента проверен -- Structure_Domain
+ОШИБКА: Тип параметра элемента не прошел проверку
+OK: Параметр подтипа элемента проверен -- Не определено
+OK: Параметр описания элемента проверен -- Бетонный раструб SI
+OK: Параметр имени элемента проверен -- AeccStructRectFlaredEndSection_Metric
+OK: Параметр имени размера элемента найден
+ОК: уникальный идентификатор семейства элементов проверен -- 23B2AB2E-344C-444D-BCF5-F1107668A7BC
+OK: Параметр версии данных проверен, версия = 2.0
+OK: Строка таблицы, построенная по шаблону, успешно создана
+ 
+Начать проверку использования Кальк
+OK: Параметр Кальк PrtSN использует Context=Catalog_PartSizeName
+OK: Параметр Кальк BdyD1 использует Context=BodyGeometry_Diameter
+OK: Параметр Кальк LenA1 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA4 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA6 использует Context=Geometry_Distance2D
+OK: Параметр Кальк SHBTh использует Context=StructHwBaseThickness
+OK: Параметр Кальк SHBW использует Context=StructHwBaseWidth
+OK: Параметр Кальк WPOf1 использует Context=Geometry_WorkplaneOffset
+ 
+OK: Проверка запроса прошла успешно
+
+OK: Элемент проверен | Inlet-Outlets\AeccStructRectFlaredEndSection_Metric.xml

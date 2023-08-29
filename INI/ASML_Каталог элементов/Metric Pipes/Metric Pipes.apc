@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autodesk Civil 3D Pipe Catalog 2004 -->
+<pXML id="F670B5B9-DA12-476d-B461-4FB5C5650A82" version="1.0" name="Metric Pipes" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <Desc>Каталог труб в метрической системе</Desc>
+ <DefaultLinearUnits>mm</DefaultLinearUnits>
+ <Images>
+  <Image>
+   <URL xlink:title="Изображение в каталоге" xlink:href="Autodesk Logo.jpg" xlink:show="embed" xlink:actuate="onLoad"/>
+  </Image>
+ </Images>
+ <Supplier name="Generic">
+  <Images>
+   <Image>
+    <URL xlink:title="Логотип" xlink:href="Autodesk Logo.jpg" xlink:show="embed" xlink:actuate="onLoad"/>
+   </Image>
+  </Images>
+  <Link>
+   <URL xlink:title="Каталог труб в метрической системе" xlink:href="http://www.autodesk.com" xml:lang="en"/>
+  </Link>
+ </Supplier>
+ <Extrinsics>
+  <Extrinsic>
+   <AeccCIRules>
+    <DomainHierarchy>
+     <Domain>
+      <DomainEnum>Pipe_Domain</DomainEnum>
+      <Type>
+       <TypeEnum>Pipe</TypeEnum>
+      </Type>
+     </Domain>
+    </DomainHierarchy>
+    <DomainSet>
+     <DomainEnum>Pipe_Domain</DomainEnum>
+    </DomainSet>
+    <TypeSet>
+     <TypeEnum>Труба</TypeEnum>
+     <TypeEnum>Отвод</TypeEnum>
+     <TypeEnum>Тройник Т</TypeEnum>
+     <TypeEnum>Тройник Y</TypeEnum>
+     <TypeEnum>Пересечение</TypeEnum>
+     <TypeEnum>Объем работ</TypeEnum>
+     <TypeEnum>Переход</TypeEnum>
+     <TypeEnum>Сочленение</TypeEnum>
+     <TypeEnum>Торцевая крышка</TypeEnum>
+    </TypeSet>
+    <SubTypeSet>
+     <SubTypeString>Дренаж</SubTypeString>
+     <SubTypeString>Стальная труба</SubTypeString>
+     <SubTypeString>Труба ВЧШГ</SubTypeString>
+     <SubTypeString>Не определено</SubTypeString>
+     <SubTypeString>Труба Корсис DN/ID</SubTypeString>
+     <SubTypeString>Труба Корсис DN/OD</SubTypeString>
+     <SubTypeString>Труба Прагма DN/ID</SubTypeString>
+     <SubTypeString>Труба Прагма DN/OD</SubTypeString>
+     <SubTypeString>Труба Спиролайн Т1</SubTypeString>
+     <SubTypeString>Труба ПП DN/ID</SubTypeString>
+     <SubTypeString>Труба ПП DN/OD</SubTypeString>
+     <SubTypeString>1х1 Труба ДКС</SubTypeString>
+     <SubTypeString>1х1 Труба ССД-Пайп</SubTypeString>
+     <SubTypeString>1х2 Труба ДКС</SubTypeString>
+     <SubTypeString>Бесканальная прокладка на жб основании</SubTypeString>
+     <SubTypeString>В канале типа НКЛ МКЛ на жб основании</SubTypeString>
+     <SubTypeString>В монолитном жб канале</SubTypeString>
+     <SubTypeString>В сборном канале на жб основании</SubTypeString>
+     <SubTypeString>В стальных футлярах и жб обойме</SubTypeString>
+     <SubTypeString>Труба теплоизолированная</SubTypeString>
+    </SubTypeSet>
+    <ShapeSet>
+     <PartShapeEnum>Круглый</PartShapeEnum>
+    </ShapeSet>
+    <ConnectionTypeSet>
+     <ConnectionTypeEnum>Undefined_Connection_Type</ConnectionTypeEnum>
+    </ConnectionTypeSet>
+    <MaterialSet>
+     <MaterialString>Ежики</MaterialString>
+     <MaterialString>ПП</MaterialString>
+     <MaterialString>ВЧШГ</MaterialString>
+     <MaterialString>ПБ</MaterialString>
+     <MaterialString>ПЭВП</MaterialString>
+     <MaterialString>Сталь</MaterialString>
+     <MaterialString>ПНД</MaterialString>
+     <MaterialString>БНТ</MaterialString>
+     <MaterialString>ПНДг.</MaterialString>
+    </MaterialSet>
+    <ParameterSet>
+     <ParameterString>BTRowID</ParameterString>
+     <ParameterString>PID</ParameterString>
+     <ParameterString>BdyD1</ParameterString>
+     <ParameterString>PDom</ParameterString>
+     <ParameterString>PTyp</ParameterString>
+     <ParameterString>PSTyp</ParameterString>
+     <ParameterString>PrtNm</ParameterString>
+     <ParameterString>PrtD</ParameterString>
+     <ParameterString>PrtID</ParameterString>
+     <ParameterString>DVer</ParameterString>
+     <ParameterString>CntTy</ParameterString>
+     <ParameterString>HPrtF</ParameterString>
+     <ParameterString>CSS</ParameterString>
+     <ParameterString>Mat</ParameterString>
+     <ParameterString>CatID</ParameterString>
+     <ParameterString>PrtSN</ParameterString>
+     <ParameterString>WTh</ParameterString>
+     <ParameterString>SN</ParameterString>
+     <ParameterString>POD</ParameterString>
+     <ParameterString>GOST</ParameterString>
+     <ParameterString>DNType</ParameterString>
+     <ParameterString>DN</ParameterString>
+     <ParameterString>PIW</ParameterString>
+     <ParameterString>PIH</ParameterString>
+     <ParameterString>LenA1</ParameterString>
+     <ParameterString>LenA2</ParameterString>
+     <ParameterString>CON</ParameterString>
+     <ParameterString>CTest2</ParameterString>
+     <ParameterString>PODH</ParameterString>
+     <ParameterString>PCS</ParameterString>
+     <ParameterString>DBP</ParameterString>
+     <ParameterString>WALL_THICKNESS</ParameterString>
+     <ParameterString>LenA3</ParameterString>
+     <ParameterString>LenA4</ParameterString>
+     <ParameterString>LenA5</ParameterString>
+     <ParameterString>CusSF</ParameterString>
+     <ParameterString>PODW</ParameterString>
+     <ParameterString>WThP</ParameterString>
+     <ParameterString>PBR</ParameterString>
+     <ParameterString>PTR</ParameterString>
+     <ParameterString>NOR</ParameterString>
+     <ParameterString>DBR</ParameterString>
+    </ParameterSet>
+    <UnitsSet>
+     <UnitsEnum/>
+     <UnitsEnum>дюйм</UnitsEnum>
+     <UnitsEnum>фут</UnitsEnum>
+     <UnitsEnum>мм</UnitsEnum>
+     <UnitsEnum>см</UnitsEnum>
+     <UnitsEnum>м</UnitsEnum>
+     <UnitsEnum>град.</UnitsEnum>
+     <UnitsString>mm</UnitsString>
+    </UnitsSet>
+    <RelativePathPreference>Таблица</RelativePathPreference>
+   </AeccCIRules>
+  </Extrinsic>
+ </Extrinsics>
+ <Chapter name="ДР">ДР
+  <Desc>ДР</Desc>
+  <Part name="Дренаж" id="BC5D3776-944D-43AF-833D-829AECA156D9">
+   <Desc>Дренаж с трубой</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Дренаж с трубой" xlink:href="ДР\Дренаж.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ДР\Дренаж.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Дренаж" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Дренажная система Софт Рок" id="28ED4325-7F12-424E-846D-5B2E5E65D76B">
+   <Desc>Дренажная система Софт Рок</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Дренажная система Софт Рок" xlink:href="ДР\Дренажная система Софт Рок.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ДР\Дренажная система Софт Рок.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Стальная труба" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Труба канализационная Икапласт" id="8B6533E6-C6AC-4B36-A182-0D7C72C585A1">
+   <Desc>Труба канализационная Икапласт</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Труба канализационная Икапласт" xlink:href="ДР\Труба канализационная Икапласт.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ДР\Труба канализационная Икапласт.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Стальная труба" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+ </Chapter>
+ <Chapter name="НВК">НВК
+  <Desc>НВК</Desc>
+  <Part name="Ввод в здание" id="1EAFEBE9-65CA-4E56-A7E2-AEBCFD0C08EA">
+   <Desc>Ввод в здание</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Ввод в здание" xlink:href="НВК\Ввод в здание.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НВК\Ввод в здание.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Труба ВЧШГ" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="ЖБ_обойма" id="61CCE9FD-4CDC-4F2B-8F1F-ED02E3E72CDB">
+   <Desc>Прямоугольная обойма</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Прямоугольная обойма" xlink:href="НВК\ЖБ_обойма.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НВК\ЖБ_обойма.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Не определено" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Корсис_DN_ID" id="36E69D3F-7A80-4585-93E4-ACFE48FEE4C5">
+   <Desc>Труба Корсис DN/ID ТУ 22.21.21-001-73011750-2021</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Труба Корсис DN/ID ТУ 22.21.21-001-73011750-2021" xlink:href="НВК\Корсис_DN_ID.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НВК\Корсис_DN_ID.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Труба Корсис DN/ID" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Корсис_DN_OD" id="B8347A38-156A-4BE2-A2BD-054D4024DEE1">
+   <Desc>Труба Корсис DN/OD ТУ 22.21.21-001-73011750-2021</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Труба Корсис DN/OD ТУ 22.21.21-001-73011750-2021" xlink:href="НВК\Корсис_DN_OD.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НВК\Корсис_DN_OD.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Труба Корсис DN/OD" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Прагма_DN_ID" id="6DD33345-804C-4567-8049-B25595E47616">
+   <Desc>Труба Прагма DN/ID ГОСТ 54475-2011</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Труба Прагма DN/ID ГОСТ 54475-2011" xlink:href="НВК\" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НВК\Прагма_DN_ID.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Труба Прагма DN/ID" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Прагма_DN_OD" id="C4E19BEB-8529-4370-80BB-75C0805948E0">
+   <Desc>Труба Прагма DN/OD ГОСТ 54475-2011</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Труба Прагма DN/OD ГОСТ 54475-2011" xlink:href="НВК\Прагма_DN_OD.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НВК\Прагма_DN_OD.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Труба Прагма DN/OD" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Спиролайн_DN_ID" id="389B3B8A-B977-4DFA-AA5C-ED7F818CFE61">
+   <Desc>Труба Спиролайн ТУ 22.21.21-036-73011750-2021</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Труба Спиролайн ТУ 22.21.21-036-73011750-2021" xlink:href="НВК\Спиролайн_DN_ID.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НВК\Спиролайн_DN_ID.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Труба Спиролайн Т1" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Стальная труба" id="9146A229-9B57-4F57-8F9A-C7E609151000">
+   <Desc>Стальная труба</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Стальная труба" xlink:href="НВК\Стальная труба.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НВК\Стальная труба.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Стальная труба" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Труба ВЧШГ" id="7F372E46-0B85-4C23-A515-0C8E0734BF9F">
+   <Desc>Труба ВЧШГ</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Труба ВЧШГ" xlink:href="НВК\Труба ВЧШГ.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НВК\Труба ВЧШГ.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Труба ВЧШГ" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Труба ПП_DN_ID" id="360947F3-A87A-4BB5-A79C-AC0EF150C9F0">
+   <Desc>Труба ПП DN/ID</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Труба ПП DN/ID" xlink:href="НВК\Труба ПП_DN_ID.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НВК\Труба ПП_DN_ID.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Труба ПП DN/ID" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Труба ПП_DN_OD" id="F7FA76F3-648A-41B1-9996-767B790DD17F">
+   <Desc>Труба ПП DN/OD</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Труба ПП DN/OD" xlink:href="НВК\Труба ПП_DN_OD.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НВК\Труба ПП_DN_OD.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Труба ПП DN/OD" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+ </Chapter>
+ <Chapter name="НСС">НСС
+  <Desc>НСС</Desc>
+  <Part name="1х1 Труба ДКС" id="7CBA308D-712B-4625-9275-5E950A0C9109">
+   <Desc>1х1 Труба ДКС</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="1х1 Труба ДКС" xlink:href="НСС\1х1 Труба ДКС.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НСС\1х1 Труба ДКС.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="1х1 Труба ДКС" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="1х1 Труба ССД-Пайп" id="43C214CF-91FC-4BD8-B93A-108DE2C4C262">
+   <Desc>1х1 Труба ССД-Пайп</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="1х1 Труба ССД-Пайп" xlink:href="НСС\1х1 Труба ССД-Пайп.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НСС\1х1 Труба ССД-Пайп.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="1х1 Труба ССД-Пайп" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="1х2 Труба ДКС" id="7E7C1F59-621D-45FA-927F-C9050A6D9680">
+   <Desc>1х2 Труба ДКС</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="1х2 Труба ДКС" xlink:href="НСС\1х2 Труба ДКС.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НСС\1х2 Труба ДКС.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="1х2 Труба ДКС" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="2х2 Труба ССД-Пайп" id="90B1D8F8-82F2-4586-A97D-1998145F1D27">
+   <Desc>2х2 Труба ССД-Пайп</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="2х2 Труба ССД-Пайп" xlink:href="НСС\2х2 Труба ССД-Пайп.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="НСС\2х2 Труба ССД-Пайп.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Не определено" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+ </Chapter>
+ <Chapter name="ТС">ТС
+  <Desc>ТС</Desc>
+  <Part name="Бесканальная прокладка на ж.б. основании" id="829FC15D-09A9-489A-8C69-09E7A8A6D545">
+   <Desc>Бесканальная прокладка на ж.б. основании</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Бесканальная прокладка на ж.б. основании" xlink:href="ТС\Бесканальная прокладка на ж.б. основании.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ТС\Бесканальная прокладка на ж.б. основании.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Бесканальная прокладка на жб основании" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="В канале типа НКЛ МКЛ на ж.б. основании" id="C1E20535-EC4C-453D-9C68-22FD7B2B807C">
+   <Desc>В канале типа НКЛ МКЛ на ж.б. основании</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="В канале типа НКЛ МКЛ на ж.б. основании" xlink:href="ТС\В канале типа НКЛ МКЛ на ж.б. основании.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ТС\В канале типа НКЛ МКЛ на ж.б. основании.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="В канале типа НКЛ МКЛ на жб основании" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="В монолитном ж.б. канале" id="3FE4AED7-9405-45EE-BF56-41609781A65D">
+   <Desc>В монолитном ж.б. канале</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="В монолитном ж.б. канале" xlink:href="ТС\В монолитном ж.б. канале.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ТС\В монолитном ж.б. канале.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="В монолитном жб канале" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="В сборном канале на ж.б. основании" id="8C95586E-9B20-4874-8510-FC2C52A97115">
+   <Desc>В сборном канале на ж.б. основании</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="В сборном канале на ж.б. основании" xlink:href="ТС\В сборном канале на ж.б. основании.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ТС\В сборном канале на ж.б. основании.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="В сборном канале на жб основании" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="В стальных футлярах и ж.б. обойме" id="D998C326-39CD-4945-8E66-F3A196038B04">
+   <Desc>В стальных футлярах и ж.б. обойме</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="В стальных футлярах и ж.б. обойме" xlink:href="ТС\В стальных футлярах и ж.б. обойме.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ТС\В стальных футлярах и ж.б. обойме.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="В стальных футлярах и жб обойме" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Труба теплоизолированная" id="AC302BCF-0B82-4D86-8CB9-FB0C51074683">
+   <Desc>Труба теплоизолированная</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Труба теплоизолированная" xlink:href="ТС\Труба теплоизолированная.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ТС\Труба теплоизолированная.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Труба теплоизолированная" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+ </Chapter>
+ <Chapter name="ЭСиЭН">ЭСиЭН
+  <Desc>ЭСиЭН</Desc>
+  <Part name="Труба БНТ" id="77B58AD6-9B9C-4E3B-8F47-05E94952D055">
+   <Desc>Труба БНТ ГОСТ 31416-2009</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Труба БНТ ГОСТ 31416-2009" xlink:href="ЭСиЭН\Труба БНТ.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ЭСиЭН\Труба БНТ.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Труба Прагма DN/OD" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Труба ПНД" id="EAAB010C-B01A-49F3-AE53-6A52BE94A09C">
+   <Desc>Труба ПНД ГОСТ Р МЭК 61386.24-2014</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Труба ПНД ГОСТ Р МЭК 61386.24-2014" xlink:href="ЭСиЭН\Труба ПНД.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ЭСиЭН\Труба ПНД.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Труба Прагма DN/OD" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Трубный блок БНТ" id="A203C16A-A907-4A1F-8AE9-3F9E23CFE6AE">
+   <Desc>Трубный блок БНТ</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Трубный блок БНТ" xlink:href="ЭСиЭН\Трубный блок БНТ.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ЭСиЭН\Трубный блок БНТ.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Не определено" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+  <Part name="Трубный блок" id="A8C11E27-A289-4AC9-AF19-FF637F565805">
+   <Desc>Трубный блок</Desc>
+   <Images>
+    <Image>
+     <URL xlink:title="Трубный блок" xlink:href="ЭСиЭН\Трубный блок.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+    </Image>
+   </Images>
+   <TableRef>
+    <URL xlink:href="ЭСиЭН\Трубный блок.xml"/>
+   </TableRef>
+   <Extrinsics>
+    <Extrinsic name="AeccPartSearchAttribList">
+     <AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Не определено" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+    </Extrinsic>
+   </Extrinsics>
+  </Part>
+ </Chapter>
+</pXML>

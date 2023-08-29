@@ -1,0 +1,42 @@
+Начать проверку элемента | KKSr-3-10
+
+Начать тест автопроверки семейства элементов
+Внутренняя проверка семейства элементов завершена, ошибок не обнаружено
+OK: Идентификаторы строки базовой таблицы проверены
+OK: Параметр домена элемента проверен -- Structure_Domain
+ОШИБКА: Тип параметра элемента не прошел проверку
+OK: Параметр подтипа элемента проверен -- ККСр-3-10
+OK: Параметр описания элемента проверен -- ККСр-3-10
+OK: Параметр имени элемента проверен -- KKSr-3-10
+OK: Параметр имени элемента проверен -- 
+ОК: уникальный идентификатор семейства элементов проверен -- 8427E365-3CE1-4D38-8460-5DA392957784
+OK: Параметр версии данных проверен, версия = 2.0
+OK: Строка таблицы, построенная по шаблону, успешно создана
+ОШИБКА: Повторяющееся описание параметра: Wall Thickness
+ 
+Начать проверку использования Кальк
+OK: Параметр Кальк BdyD4 использует Context=BodyGeometry_Diameter
+OK: Параметр Кальк LenA1 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA2 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA3 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA4 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA5 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA6 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA7 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA8 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA9 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenB1 использует Context=Geometry_Distance3D
+OK: Параметр Кальк LenB2 использует Context=Geometry_Distance3D
+OK: Параметр Кальк LenB3 использует Context=Geometry_Distance3D
+OK: Параметр Кальк SRS использует Context=StructRimToSumpHeight
+OK: Параметр Кальк WPOf1 использует Context=Geometry_WorkplaneOffset
+OK: Параметр Кальк WPOf2 использует Context=Geometry_WorkplaneOffset
+OK: Параметр Кальк WPOf3 использует Context=Geometry_WorkplaneOffset
+OK: Параметр Кальк WPOf4 использует Context=Geometry_WorkplaneOffset
+OK: Параметр Кальк LenA10 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA11 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA12 использует Context=Geometry_Distance2D
+ 
+ОШИБКА: Сбой проверки данных таблицы | G:\BIM\SHARED\03_CIVIL3D\02_Библиотеки\01_Каталоги\02_Безнапорный\ASML_Каталог элементов\Metric Structures\Сети связи\KKSr-3-10.xml
+
+ОШИБКА: Ошибка при проверке элемента | Сети связи\KKSr-3-10.xml

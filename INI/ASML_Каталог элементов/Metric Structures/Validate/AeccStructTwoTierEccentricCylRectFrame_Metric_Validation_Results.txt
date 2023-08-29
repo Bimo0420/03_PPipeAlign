@@ -1,0 +1,36 @@
+Начать проверку элемента | AeccStructTwoTierEccentricCylRectFrame_Metric
+
+Начать тест автопроверки семейства элементов
+Внутренняя проверка семейства элементов завершена, ошибок не обнаружено
+OK: Параметр домена элемента проверен -- Structure_Domain
+ОШИБКА: Тип параметра элемента не прошел проверку
+OK: Параметр подтипа элемента проверен -- Эксцентрический
+OK: Параметр описания элемента проверен -- Двухъярусное прямоугольное обрамление эксцентрического цилиндрического колодца SI
+OK: Параметр имени элемента проверен -- AeccStructTwoTierEccentricCylRectFrame_Metric
+OK: Параметр имени размера элемента найден
+ОК: уникальный идентификатор семейства элементов проверен -- 607AFA32-8E22-4F76-B99E-DEB8E1D38CCE
+OK: Параметр версии данных проверен, версия = 2.0
+OK: Строка таблицы, построенная по шаблону, успешно создана
+ОШИБКА: Повторяющееся описание параметра: Высота коробки
+ 
+Начать проверку использования Кальк
+OK: Параметр Кальк PrtSN использует Context=Catalog_PartSizeName
+OK: Параметр Кальк STest2 использует Context=PartSizeValidation_Test
+OK: Параметр Кальк BdyD2 использует Context=BodyGeometry_Diameter
+OK: Параметр Кальк BdyD3 использует Context=BodyGeometry_Diameter
+OK: Параметр Кальк BdyD4 использует Context=BodyGeometry_Diameter
+OK: Параметр Кальк LenA1 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA2 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA3 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenB2 использует Context=Geometry_Distance3D
+OK: Параметр Кальк SBSD использует Context=StructDiameter
+OK: Параметр Кальк SBSH использует Context=StructHeight
+OK: Параметр Кальк SVPC использует Context=StructVertPipeClearance
+OK: Параметр Кальк WPOf1 использует Context=Geometry_WorkplaneOffset
+OK: Параметр Кальк WPOf2 использует Context=Geometry_WorkplaneOffset
+OK: Параметр Кальк WPOf3 использует Context=Geometry_WorkplaneOffset
+OK: Параметр Кальк STest1 использует Context=PartSizeValidation_Test
+ 
+ОШИБКА: Сбой проверки данных таблицы | G:\BIM\01_BIM Library\02_CIVIL3D\02_CIVIL\07_КАТАЛОГИ\00_БУФЕР\01_БЕЗНАПОРНЫЙ\НВК\каталог\Metric Structures\Junction Structures with Frames\AeccStructTwoTierEccentricCylRectFrame_Metric.xml
+
+ОШИБКА: Ошибка при проверке элемента | Junction Structures with Frames\AeccStructTwoTierEccentricCylRectFrame_Metric.xml

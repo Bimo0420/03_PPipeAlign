@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_PPipeAlign", "03_PPipeAlign.csproj", "{21A32C72-F604-4378-8259-801FA410218D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CVL3Dv23LibraryVAA", "..\C3Dv23LibraryVAA\CVL3Dv23LibraryVAA\CVL3Dv23LibraryVAA.csproj", "{C7AE2F7D-4927-4C57-A596-7A2DAF83A2C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21A32C72-F604-4378-8259-801FA410218D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A32C72-F604-4378-8259-801FA410218D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A32C72-F604-4378-8259-801FA410218D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A32C72-F604-4378-8259-801FA410218D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AE2F7D-4927-4C57-A596-7A2DAF83A2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AE2F7D-4927-4C57-A596-7A2DAF83A2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AE2F7D-4927-4C57-A596-7A2DAF83A2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AE2F7D-4927-4C57-A596-7A2DAF83A2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B7A48C1-36F2-4960-8B49-F8E59A8378F5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+Начать проверку элемента | AeccStructEccentricCylinder_Metric
+
+Начать тест автопроверки семейства элементов
+Внутренняя проверка семейства элементов завершена, ошибок не обнаружено
+OK: Параметр домена элемента проверен -- Structure_Domain
+ОШИБКА: Тип параметра элемента не прошел проверку
+OK: Параметр подтипа элемента проверен -- Эксцентрический
+OK: Параметр описания элемента проверен -- Эксцентрический цилиндрический колодец SI
+OK: Параметр имени элемента проверен -- AeccStructEccentricCylinder_Metric
+OK: Параметр имени размера элемента найден
+ОК: уникальный идентификатор семейства элементов проверен -- A160595E-3B24-4B41-AA42-5183FB59E938
+OK: Параметр версии данных проверен, версия = 2.0
+OK: Строка таблицы, построенная по шаблону, успешно создана
+ 
+Начать проверку использования Кальк
+OK: Параметр Кальк PrtSN использует Context=Catalog_PartSizeName
+OK: Параметр Кальк BdyD1 использует Context=BodyGeometry_Diameter
+OK: Параметр Кальк BdyD2 использует Context=BodyGeometry_Diameter
+OK: Параметр Кальк BdyD3 использует Context=BodyGeometry_Diameter
+OK: Параметр Кальк LenA1 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenB1 использует Context=Geometry_Distance3D
+OK: Параметр Кальк LenB2 использует Context=Geometry_Distance3D
+OK: Параметр Кальк SBSD использует Context=StructDiameter
+OK: Параметр Кальк SBSH использует Context=StructHeight
+OK: Параметр Кальк SVPC использует Context=StructVertPipeClearance
+OK: Параметр Кальк WPOf1 использует Context=Geometry_WorkplaneOffset
+OK: Параметр Кальк WPOf2 использует Context=Geometry_WorkplaneOffset
+ 
+OK: Проверка запроса прошла успешно
+
+OK: Элемент проверен | Junction Structures with Frames\AeccStructEccentricCylinder_Metric.xml

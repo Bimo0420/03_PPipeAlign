@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<LandPart desc="Part Table" version="1.0" xmlns:xlink="http://www.w3.org/1999/xlink" fixColumn="C1">
+ <ColumnConstView desc="Parameter-driven Display" id="CCV1" viewKey="3d" viewName="AeccPartRecipe">
+  <Images>
+   <Image>
+    <URL xlink:title="Part Reference Image" xlink:href="НВК\Колодец дождеприемный Д7.bmp"/>
+   </Image>
+  </Images>
+  <Recipe>НВК\Колодец дождеприемный Д7.dwg</Recipe>
+ </ColumnConstView>
+ <ColumnRangeList desc="Высота от кромки до отстойника" dataType="float" unit="mm" name="SRS" id="CCR1" visible="1" context="StructRimToSumpHeight" index="0">
+  <Item id="i0" rangeVal="Min">1000.0000</Item>
+  <Item id="i1" rangeVal="Max">1600.0000</Item>
+  <Item id="i2" rangeVal="Default">1340.0000</Item>
+ </ColumnRangeList>
+ <ColumnConst desc="Домен элемента" dataType="string" unit="" name="PDom" id="CC0" visible="0" context="Catalog_Domain" index="0">Structure_Domain</ColumnConst>
+ <ColumnConst desc="Тип элемента" dataType="string" unit="" name="PTyp" id="CC1" visible="1" context="Catalog_PartType" index="0">Struct_Junction</ColumnConst>
+ <ColumnConst desc="Подтип элемента" dataType="string" unit="" name="PSTyp" id="CC2" visible="1" context="Catalog_SubType" index="0">Не определено</ColumnConst>
+ <ColumnConst desc="Имя элемента" dataType="string" unit="" name="PrtNm" id="CC3" visible="0" context="Catalog_PartName" index="0">Колодец дождеприемный Д7</ColumnConst>
+ <ColumnConst desc="Описание элемента" dataType="string" unit="" name="PrtD" id="CC4" visible="1" context="Catalog_PartDesc" index="0">Колодец дождеприемный Д7</ColumnConst>
+ <ColumnConst desc="Код элемента" dataType="string" unit="" name="PrtID" id="CC5" visible="0" context="Catalog_PartID" index="0">2365915F-7329-455B-A480-4867BB837441</ColumnConst>
+ <ColumnConst desc="Версия данных" dataType="string" unit="" name="DVer" id="CC6" visible="0" context="DataVersion" index="0">2.0</ColumnConst>
+ <ColumnConst desc="Тип содержимого" dataType="int" unit="" name="CntTy" id="CC7" visible="0" context="Content_Type" index="0">4</ColumnConst>
+ <ColumnConst desc="Флаг скрытия элемента" dataType="bool" unit="" name="HPrtF" id="CC8" visible="0" context="Catalog_PartHide" index="0">0</ColumnConst>
+ <ColumnConst desc="Форма колодца" dataType="string" unit="" name="SBS" id="CC9" visible="1" context="StructBoundingShape" index="0">BoundingShape_Cylinder</ColumnConst>
+ <ColumnConst desc="Зазор вертикальной трубы" dataType="float" unit="mm" name="SVPC" id="CC10" visible="0" context="StructVertPipeClearance" index="0">400.0000</ColumnConst>
+ <ColumnConst desc="Толщина основания" dataType="float" unit="mm" name="FTh" id="CC11" visible="0" context="FloorThickness" index="0">100.0000</ColumnConst>
+ <ColumnConst desc="Диаметр колодца" dataType="float" unit="mm" name="SBSD" id="CC12" visible="0" context="StructDiameter" index="0">700.0000</ColumnConst>
+ <ColumnConst desc="Высота колодца" dataType="float" unit="mm" name="SBSH" id="CC13" visible="0" context="StructHeight" index="0">1890.0000</ColumnConst>
+ <ColumnConst desc="Высота ДБ2" dataType="float" unit="mm" name="WPOf1" id="CC14" visible="0" context="Geometry_WorkplaneOffset" index="1">100.0000</ColumnConst>
+ <ColumnConst desc="Длина низа ДБ2" dataType="float" unit="mm" name="LenA3" id="CC15" visible="0" context="Geometry_Distance2D" index="3">943.0000</ColumnConst>
+ <ColumnConst desc="Ширина низа ДБ2" dataType="float" unit="mm" name="LenA4" id="CC16" visible="0" context="Geometry_Distance2D" index="4">473.0000</ColumnConst>
+ <ColumnConst desc="Ширина верха ДБ2" dataType="float" unit="mm" name="LenA2" id="CC17" visible="0" context="Geometry_Distance2D" index="2">400.0000</ColumnConst>
+ <ColumnConst desc="Длина верха ДБ2" dataType="float" unit="mm" name="LenA1" id="CC18" visible="0" context="Geometry_Distance2D" index="1">830.0000</ColumnConst>
+ <ColumnConst desc="Ширина ОП-1" dataType="float" unit="mm" name="LenA25" id="CC19" visible="0" context="Geometry_Distance2D" index="25">473.0000</ColumnConst>
+ <ColumnConst desc="Длина ОП-1" dataType="float" unit="mm" name="LenA26" id="CC20" visible="0" context="Geometry_Distance2D" index="26">943.0000</ColumnConst>
+ <ColumnConst desc="Высота1 ОП-1д" dataType="float" unit="mm" name="WPOf2" id="CC21" visible="0" context="Geometry_WorkplaneOffset" index="2">40.0000</ColumnConst>
+ <ColumnConst desc="Ширина ОП-2" dataType="float" unit="mm" name="LenA27" id="CC22" visible="0" context="Geometry_Distance2D" index="27">1600.0000</ColumnConst>
+ <ColumnConst desc="Длина ОП-2" dataType="float" unit="mm" name="LenA28" id="CC23" visible="0" context="Geometry_Distance2D" index="28">1600.0000</ColumnConst>
+ <ColumnConst desc="Высота2 ОП-1д" dataType="float" unit="mm" name="WPOf3" id="CC24" visible="0" context="Geometry_WorkplaneOffset" index="3">120.0000</ColumnConst>
+ <ColumnConst desc="Диаметр ПВК-8 верх" dataType="float" unit="mm" name="BdyD1" id="CC25" visible="0" context="BodyGeometry_Diameter" index="1">1000.0000</ColumnConst>
+ <ColumnConst desc="Высота ПВК-8 полная" dataType="float" unit="mm" name="WPOf4" id="CC26" visible="0" context="Geometry_WorkplaneOffset" index="4">150.0000</ColumnConst>
+ <ColumnConst desc="Диаметр Д7" dataType="float" unit="mm" name="BdyD2" id="CC27" visible="0" context="BodyGeometry_Diameter" index="2">860.0000</ColumnConst>
+ <ColumnConst desc="Толщина стенки" dataType="float" unit="mm" name="WTh" id="CC28" visible="1" context="WallThickness" index="0">80.0000</ColumnConst>
+ <ColumnConst desc="Высота ПВК-8 до середина" dataType="float" unit="mm" name="WPOf7" id="CC29" visible="0" context="Geometry_WorkplaneOffset" index="7">80.0000</ColumnConst>
+ <ColumnConst desc="Диаметр ПВК-8 низ" dataType="float" unit="mm" name="BdyD3" id="CC30" visible="0" context="BodyGeometry_Diameter" index="3">800.0000</ColumnConst>
+ <ColumnConst desc="Диаметр плиты днища" dataType="float" unit="mm" name="BdyD4" id="CC31" visible="0" context="BodyGeometry_Diameter" index="4">1160.0000</ColumnConst>
+ <ColumnConst desc="2D-расстояние 29" dataType="float" unit="mm" name="LenA29" id="CC32" visible="0" context="Geometry_Distance2D" index="29">200.0000</ColumnConst>
+ <ColumnConst desc="Толщина стенки трубы" dataType="float" unit="mm" name="WPOf6" id="CC33" visible="0" context="Geometry_WorkplaneOffset" index="6">43.0000</ColumnConst>
+ <ColumnConst desc="Коробка" dataType="string" unit="" name="SF" id="CC35" visible="1" context="StructFrame" index="0">Д7</ColumnConst>
+ <ColumnConst desc="Покрытие" dataType="string" unit="" name="SC" id="CC36" visible="1" context="StructCover" index="0">ОП-1д</ColumnConst>
+ <ColumnConst desc="Решетка" dataType="string" unit="" name="SG" id="CC37" visible="1" context="StructGrate" index="0">ДБ-2</ColumnConst>
+ <ColumnConst desc="Плита перекрытия" dataType="string" unit="" name="ST" id="CC38" visible="1" context="StructTile" index="0">ПВК-8</ColumnConst>
+ <ColumnCalc desc="Имя размера элемента" dataType="string" unit="" name="PrtSN" id="CCA0" visible="0" context="Catalog_PartSizeName" index="0">"$PrtD"</ColumnCalc>
+ <ColumnCalc desc="Высота от верха люка до лотка" dataType="float" unit="mm" name="WPOf5" id="CCA1" visible="0" context="Geometry_WorkplaneOffset" index="5">$SRS</ColumnCalc>
+ <ColumnCalc desc="Высота ПН-10-1" dataType="float" unit="mm" name="WPOf8" id="CCA2" visible="0" context="Geometry_WorkplaneOffset" index="8">$FTh</ColumnCalc>
+</LandPart>

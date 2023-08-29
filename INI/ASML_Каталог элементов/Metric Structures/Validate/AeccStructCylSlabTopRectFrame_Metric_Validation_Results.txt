@@ -1,0 +1,29 @@
+Начать проверку элемента | AeccStructCylSlabTopRectFrame_Metric
+
+Начать тест автопроверки семейства элементов
+Внутренняя проверка семейства элементов завершена, ошибок не обнаружено
+OK: Параметр домена элемента проверен -- Structure_Domain
+ОШИБКА: Тип параметра элемента не прошел проверку
+OK: Параметр подтипа элемента проверен -- Верх перекрытия
+OK: Параметр описания элемента проверен -- Прямоугольное обрамление перекрытия цилиндрического колодца SI
+OK: Параметр имени элемента проверен -- AeccStructCylSlabTopRectFrame_Metric
+OK: Параметр имени размера элемента найден
+ОК: уникальный идентификатор семейства элементов проверен -- EBF51975-14DC-4AAA-8ECA-9BA3F9672CFE
+OK: Параметр версии данных проверен, версия = 2.0
+OK: Строка таблицы, построенная по шаблону, успешно создана
+ОШИБКА: Повторяющееся описание параметра: Высота коробки
+ 
+Начать проверку использования Кальк
+OK: Параметр Кальк PrtSN использует Context=Catalog_PartSizeName
+OK: Параметр Кальк BdyD2 использует Context=BodyGeometry_Diameter
+OK: Параметр Кальк LenA1 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA2 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenB2 использует Context=Geometry_Distance3D
+OK: Параметр Кальк SBSD использует Context=StructDiameter
+OK: Параметр Кальк SBSH использует Context=StructHeight
+OK: Параметр Кальк SVPC использует Context=StructVertPipeClearance
+OK: Параметр Кальк WPOf1 использует Context=Geometry_WorkplaneOffset
+ 
+ОШИБКА: Сбой проверки данных таблицы | G:\BIM\01_BIM Library\02_CIVIL3D\02_CIVIL\07_КАТАЛОГИ\00_БУФЕР\01_БЕЗНАПОРНЫЙ\НВК\каталог\Metric Structures\Junction Structures with Frames\AeccStructCylSlabTopRectFrame_Metric.xml
+
+ОШИБКА: Ошибка при проверке элемента | Junction Structures with Frames\AeccStructCylSlabTopRectFrame_Metric.xml

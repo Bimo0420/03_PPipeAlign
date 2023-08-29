@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autodesk Civil 3D Structure Catalog 2004 -->
+<pXML id="F1FEBE2D-D589-4f85-BF8E-650ED06A5EA5" version="1.0" name="Metric Structures" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Desc>Каталог колодцев в метрической системе</Desc>
+	<DefaultLinearUnits>mm</DefaultLinearUnits>
+	<Images>
+		<Image>
+			<URL xlink:title="Изображение в каталоге" xlink:href="Autodesk Logo.jpg" xlink:show="embed" xlink:actuate="onLoad"/>
+		</Image>
+	</Images>
+	<Supplier name="Autodesk">
+		<Desc>Каталог колодцев в метрической системе</Desc>
+		<Images>
+			<Image>
+				<URL xlink:title="Логотип" xlink:href="Autodesk Logo.jpg" xlink:show="embed" xlink:actuate="onLoad"/>
+			</Image>
+		</Images>
+		<Link>
+			<URL xlink:title="Домашняя страница" xlink:href="http://www.autodesk.com" xml:lang="en"/>
+		</Link>
+	</Supplier>
+	<Extrinsics>
+		<Extrinsic>
+			<AeccCIRules>
+				<DomainHierarchy>
+					<Domain>
+						<DomainEnum>Structure_Domain</DomainEnum>
+						<Type>
+							<TypeEnum>Struct_Junction</TypeEnum>
+						</Type>
+						<Type>
+							<TypeEnum>Struct_Heating_Chamber</TypeEnum>
+						</Type>
+						<Type>
+							<TypeEnum>Struct_Heating</TypeEnum>
+						</Type>
+					</Domain>
+				</DomainHierarchy>
+				<DomainSet>
+					<DomainEnum>Structure_Domain</DomainEnum>
+				</DomainSet>
+				<TypeSet>
+					<TypeEnum>Struct_Junction</TypeEnum>
+					<TypeEnum>Struct_InletOutlet</TypeEnum>
+					<TypeEnum>Struct_General</TypeEnum>
+				</TypeSet>
+				<SubTypeSet>
+					<SubTypeString>КОД 10(15).9</SubTypeString>
+					<SubTypeString>Undefined</SubTypeString>
+					<SubTypeString>Не определено</SubTypeString>
+					<SubTypeString>ККСр-2-10(80)</SubTypeString>
+					<SubTypeString>Камера</SubTypeString>
+					<SubTypeString>Колодец теплосети</SubTypeString>
+				</SubTypeSet>
+				<ShapeSet>
+					<PartShapeEnum>Неопределенная_фигура</PartShapeEnum>
+					<PartShapeEnum>Круглый</PartShapeEnum>
+					<PartShapeEnum>Прямоугольный</PartShapeEnum>
+					<PartShapeEnum>Овал</PartShapeEnum>
+				</ShapeSet>
+				<ConnectionTypeSet>
+					<ConnectionTypeEnum>Undefined_Connection_Type</ConnectionTypeEnum>
+				</ConnectionTypeSet>
+				<MaterialSet>
+					<MaterialString>Undefined Material</MaterialString>
+				</MaterialSet>
+				<GaugeSet/>
+				<ParameterContextSet/>
+				<ParameterSet>
+					<ParameterString>BTRowID</ParameterString>
+					<ParameterString>LenA7</ParameterString>
+					<ParameterString>SG</ParameterString>
+					<ParameterString>ST</ParameterString>
+					<ParameterString>KC9</ParameterString>
+					<ParameterString>KC6</ParameterString>
+					<ParameterString>KO6</ParameterString>
+					<ParameterString>PDom</ParameterString>
+					<ParameterString>PTyp</ParameterString>
+					<ParameterString>PSTyp</ParameterString>
+					<ParameterString>PrtNm</ParameterString>
+					<ParameterString>PrtD</ParameterString>
+					<ParameterString>PrtID</ParameterString>
+					<ParameterString>DVer</ParameterString>
+					<ParameterString>CntTy</ParameterString>
+					<ParameterString>HPrtF</ParameterString>
+					<ParameterString>SBS</ParameterString>
+					<ParameterString>WTh</ParameterString>
+					<ParameterString>FTh</ParameterString>
+					<ParameterString>LenA1</ParameterString>
+					<ParameterString>LenA2</ParameterString>
+					<ParameterString>LenA5</ParameterString>
+					<ParameterString>SF</ParameterString>
+					<ParameterString>LenA8</ParameterString>
+					<ParameterString>SBSD</ParameterString>
+					<ParameterString>BdyD2</ParameterString>
+					<ParameterString>BdyD3</ParameterString>
+					<ParameterString>BdyD4</ParameterString>
+					<ParameterString>BdyD5</ParameterString>
+					<ParameterString>BdyD6</ParameterString>
+					<ParameterString>BdyD7</ParameterString>
+					<ParameterString>BdyD8</ParameterString>
+					<ParameterString>SVPC</ParameterString>
+					<ParameterString>CatID</ParameterString>
+					<ParameterString>PrtSN</ParameterString>
+					<ParameterString>BdyD1</ParameterString>
+					<ParameterString>LenA3</ParameterString>
+					<ParameterString>LenA4</ParameterString>
+					<ParameterString>LenA6</ParameterString>
+					<ParameterString>SBSH</ParameterString>
+					<ParameterString>SRS</ParameterString>
+					<ParameterString>LenA10</ParameterString>
+					<ParameterString>LenA11</ParameterString>
+					<ParameterString>BdyD9</ParameterString>
+					<ParameterString>BdyD10</ParameterString>
+					<ParameterString>LenA13</ParameterString>
+					<ParameterString>LenA16</ParameterString>
+					<ParameterString>LenA12</ParameterString>
+					<ParameterString>LenA14</ParameterString>
+					<ParameterString>LenA15</ParameterString>
+					<ParameterString>SID</ParameterString>
+					<ParameterString>CusSF</ParameterString>
+					<ParameterString>LenB1</ParameterString>
+					<ParameterString>WALL_THICKNESS</ParameterString>
+					<ParameterString>SIW</ParameterString>
+					<ParameterString>SIL</ParameterString>
+					<ParameterString>SBSL</ParameterString>
+					<ParameterString>SBSW</ParameterString>
+					<ParameterString>WPOf1</ParameterString>
+					<ParameterString>LenA25</ParameterString>
+					<ParameterString>LenA26</ParameterString>
+					<ParameterString>WPOf2</ParameterString>
+					<ParameterString>LenA27</ParameterString>
+					<ParameterString>LenA28</ParameterString>
+					<ParameterString>WPOf3</ParameterString>
+					<ParameterString>WPOf4</ParameterString>
+					<ParameterString>LenA29</ParameterString>
+					<ParameterString>WPOf6</ParameterString>
+					<ParameterString>SC</ParameterString>
+					<ParameterString>WPOf5</ParameterString>
+					<ParameterString>WPOf7</ParameterString>
+					<ParameterString>WPOf8</ParameterString>
+					<ParameterString>LenA30</ParameterString>
+					<ParameterString>LenA31</ParameterString>
+					<ParameterString>SGH</ParameterString>
+					<ParameterString>WallThickness</ParameterString>
+					<ParameterString>SWH</ParameterString>
+					<ParameterString>OPH</ParameterString>
+					<ParameterString>PPH</ParameterString>
+					<ParameterString>SH</ParameterString>
+					<ParameterString>SFH</ParameterString>
+					<ParameterString>WPOf9</ParameterString>
+					<ParameterString>KO1</ParameterString>
+					<ParameterString>KO150</ParameterString>
+					<ParameterString>SSTh</ParameterString>
+					<ParameterString>Mat</ParameterString>
+					<ParameterString>LenA9</ParameterString>
+					<ParameterString>STD</ParameterString>
+					<ParameterString>CMBH</ParameterString>
+					<ParameterString>PTh</ParameterString>
+					<ParameterString>STOY</ParameterString>
+					<ParameterString>STOX</ParameterString>
+					<ParameterString>STO</ParameterString>
+					<ParameterString>SBH</ParameterString>
+				</ParameterSet>
+				<UnitsSet>
+					<UnitsEnum/>
+					<UnitsEnum>дюйм</UnitsEnum>
+					<UnitsEnum>фут</UnitsEnum>
+					<UnitsEnum>мм</UnitsEnum>
+					<UnitsEnum>см</UnitsEnum>
+					<UnitsEnum>м</UnitsEnum>
+					<UnitsEnum>град.</UnitsEnum>
+					<UnitsString>mm</UnitsString>
+				</UnitsSet>
+				<RelativePathPreference>Таблица</RelativePathPreference>
+			</AeccCIRules>
+		</Extrinsic>
+	</Extrinsics>
+	<Chapter name="ДР">ДР
+  <Desc>ДР</Desc>
+		<Part name="КОД 10.9 (ГОСТ 8020-2016)" id="D1DD8F6E-051E-495F-9D47-57DFF725F199">
+			<Desc>КОД 10.9 (ГОСТ 8020-2016)</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="КОД 10.9 (ГОСТ 8020-2016)" xlink:href="ДР\КОД 10.9 (ГОСТ 8020-2016).bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="ДР\КОД 10.9 (ГОСТ 8020-2016).xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="КОД 10(15).9" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="КОД 15.9 (ГОСТ 8020-2016)" id="FC72DF3C-D777-46DD-89DE-9990E545187F">
+			<Desc>КОД 15.9 (ГОСТ 8020-2016)</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="КОД 15.9 (ГОСТ 8020-2016)" xlink:href="ДР\КОД 15.9 (ГОСТ 8020-2016).bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="ДР\КОД 15.9 (ГОСТ 8020-2016).xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="КОД 10(15).9" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+	</Chapter>
+	<Chapter name="НВК">НВК
+  <Desc>НВК</Desc>
+		<Part name="Камеры круглые водопровод СК 2106-81" id="ACA51763-EC35-48EA-B3F9-387E9ADFAED7">
+			<Desc>Камеры круглые водопровод СК 2106-81</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Камеры круглые водопровод СК 2106-81" xlink:href="НВК\Камеры круглые водопровод СК 2106-81.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Камеры круглые водопровод СК 2106-81.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Undefined" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Камеры прямоугольные водопровод СК 2106-81" id="1C8463C4-481D-49A2-B402-D4915C6BB03A">
+			<Desc>Камеры прямоугольные водопровод СК 2106-81</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Камеры прямоугольные водопровод СК 2106-81" xlink:href="НВК\Камеры прямоугольные водопровод СК 2106-81.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Камеры прямоугольные водопровод СК 2106-81.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Box" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодец дождеприемный ВД8" id="6D57E946-A93A-4C94-9E88-2CD34DA1DA89">
+			<Desc>Колодец дождеприемный ВД8</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодец дождеприемный ВД8" xlink:href="НВК\Колодец дождеприемный ВД8.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодец дождеприемный ВД8.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодец дождеприемный Д7" id="2365915F-7329-455B-A480-4867BB837441">
+			<Desc>Колодец дождеприемный Д7</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодец дождеприемный Д7" xlink:href="НВК\Колодец дождеприемный Д7.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодец дождеприемный Д7.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодец дождеприемный Д8" id="DA2700FE-8EFB-4D3C-9C72-1DECA244EE00">
+			<Desc>Колодец дождеприемный Д8</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодец дождеприемный Д8" xlink:href="НВК\Колодец дождеприемный Д8.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодец дождеприемный Д8.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодец прекреплен к трубе" id="6C065013-2171-471B-91D4-3EBA4BF087FD">
+			<Desc>основано на  дождеприемные ПП 16-9</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="основано на  дождеприемные ПП 16-9" xlink:href="НВК\Колодец прекреплен к трубе.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодец прекреплен к трубе.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Undefined" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы водосточные СК 2201-88" id="6068FBDC-62C4-411E-822B-F6DD7D7C9AF6">
+			<Desc>Колодцы водосточные СК 2201-88</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы водосточные СК 2201-88" xlink:href="НВК\Колодцы водосточные СК 2201-88.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы водосточные СК 2201-88.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Undefined" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы дождеприемные ПП 16-9" id="DDE30ED6-769A-4DBA-A9AB-5441F21E8633">
+			<Desc>Колодцы дождеприемные ПП 16-9</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы дождеприемные ПП 16-9" xlink:href="НВК\Колодцы дождеприемные ПП 16-9.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы дождеприемные ПП 16-9.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Undefined" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы канализационные ПП 16-80" id="FC70BDB4-CE8E-42D8-85E0-A178EAE501B6">
+			<Desc>Колодцы канализационные ПП 16-80</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы канализационные ПП 16-80" xlink:href="НВК\Колодцы канализационные ПП 16-80.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы канализационные ПП 16-80.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Undefined" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы КК К-1а" id="CB957AAB-378C-4989-813E-1DC1DB2B0427">
+			<Desc>Колодцы КК К-1а</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы КК К-1а" xlink:href="НВК\Колодцы КК К-1а.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы КК К-1а.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы КК квадратный люк" id="EE47AA04-7E7B-403D-8C05-20FBF3FF6CEA">
+			<Desc>Колодцы КК квадратный люк</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы КК квадратный люк" xlink:href="НВК\Колодцы КК квадратный люк.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы КК квадратный люк.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы КК ОПКС4" id="7DF26815-2A4F-43E3-A67E-9A91629C9656">
+			<Desc>Колодцы КК ОПКС4</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы КК ОПКС4" xlink:href="НВК\Колодцы КК ОПКС4.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы КК ОПКС4.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы КПВГ К-1а" id="E2252ECD-7555-43DD-8283-86BFF3AD29A8">
+			<Desc>Колодцы КПВГ К-1а</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы КПВГ К-1а" xlink:href="НВК\Колодцы КПВГ К-1а.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы КПВГ К-1а.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы КПВГ квадратный люк" id="79431E20-D75D-4533-8C41-79CCA83040CA">
+			<Desc>Колодцы КПВГ квадратный люк</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы КПВГ квадратный люк" xlink:href="НВК\Колодцы КПВГ квадратный люк.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы КПВГ квадратный люк.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы КПВГ ОП-1к" id="5D4E5212-3C45-437E-AF25-1B6D5C927E0D">
+			<Desc>Колодцы КПВГ ОП-1к</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы КПВГ ОП-1к" xlink:href="НВК\Колодцы КПВГ ОП-1к.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы КПВГ ОП-1к.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы КПВГ ОПКС4" id="0D6A192C-8C9D-4502-941E-2D90DE3C5B3A">
+			<Desc>Колодцы КПВГ ОПКС4</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы КПВГ ОПКС4" xlink:href="НВК\Колодцы КПВГ ОПКС4.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы КПВГ ОПКС4.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы КПВГ УОП-6" id="56FE27CB-6BA7-4D72-8A64-5CD3C48EA1FA">
+			<Desc>Колодцы КПВГ УОП-6</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы КПВГ УОП-6" xlink:href="НВК\Колодцы КПВГ УОП-6.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы КПВГ УОП-6.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы перепадные ККП К-1а" id="C53CAE6C-F112-4192-890D-9681BA5C2738">
+			<Desc>Колодцы перепадные ККП К-1а</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы перепадные ККП К-1а" xlink:href="НВК\Колодцы перепадные ККП К-1а.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы перепадные ККП К-1а.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы перепадные ККП квадратный люк" id="2597E906-279D-4876-BE4D-462298422C84">
+			<Desc>Колодцы перепадные ККП квадратный люк</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы перепадные ККП квадратный люк" xlink:href="НВК\Колодцы перепадные ККП квадратный люк.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы перепадные ККП квадратный люк.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы перепадные ККП ОПКС4" id="20B3F101-0E19-4AC5-BCFD-C13EEFC4F35B">
+			<Desc>Колодцы перепадные ККП ОПКС4</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы перепадные ККП ОПКС4" xlink:href="НВК\Колодцы перепадные ККП ОПКС4.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы перепадные ККП ОПКС4.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы перепадные ПП 16-9" id="A23A5B99-D50E-4D2A-BE3A-A9142F1CFC00">
+			<Desc>Колодцы перепадные ПП 16-9</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодцы перепадные ПП 16-9" xlink:href="НВК\Колодцы перепадные ПП 16-9.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НВК\Колодцы перепадные ПП 16-9.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Undefined" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодцы ВГ К-1а" id="D24213BA-EB16-4749-9965-A9A2A7D2CAE6"><Desc>Колодцы ВГ К-1а</Desc><Images><Image><URL xlink:title="Колодцы ВГ К-1а" xlink:href="НВК\Колодцы ВГ К-1а.bmp" xlink:show="embed" xlink:actuate="onLoad"/></Image></Images><TableRef><URL xlink:href="НВК\Колодцы ВГ К-1а.xml"/></TableRef><Extrinsics><Extrinsic name="AeccPartSearchAttribList"><AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/></Extrinsic></Extrinsics></Part><Part name="Колодцы ВГ квадратный люк" id="ED4CE5B0-FFA1-4850-8D2D-E070332BC479"><Desc>Колодцы ВГ квадратный люк</Desc><Images><Image><URL xlink:title="Колодцы ВГ квадратный люк" xlink:href="НВК\Колодцы ВГ квадратный люк.bmp" xlink:show="embed" xlink:actuate="onLoad"/></Image></Images><TableRef><URL xlink:href="НВК\Колодцы ВГ квадратный люк.xml"/></TableRef><Extrinsics><Extrinsic name="AeccPartSearchAttribList"><AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/></Extrinsic></Extrinsics></Part><Part name="Колодцы ВГ ОП-1к" id="0666E6F2-7CEE-46CC-8C20-16AC506DA47F"><Desc>Колодцы ВГ ОП-1к</Desc><Images><Image><URL xlink:title="Колодцы ВГ ОП-1к" xlink:href="НВК\Колодцы ВГ ОП-1к.bmp" xlink:show="embed" xlink:actuate="onLoad"/></Image></Images><TableRef><URL xlink:href="НВК\Колодцы ВГ ОП-1к.xml"/></TableRef><Extrinsics><Extrinsic name="AeccPartSearchAttribList"><AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/></Extrinsic></Extrinsics></Part><Part name="Колодцы ВГ ОПКС4" id="B4E23431-CD38-4428-8F0A-4303182A1828"><Desc>Колодцы ВГ ОПКС4</Desc><Images><Image><URL xlink:title="Колодцы ВГ ОПКС4" xlink:href="НВК\Колодцы ВГ ОПКС4.bmp" xlink:show="embed" xlink:actuate="onLoad"/></Image></Images><TableRef><URL xlink:href="НВК\Колодцы ВГ ОПКС4.xml"/></TableRef><Extrinsics><Extrinsic name="AeccPartSearchAttribList"><AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/></Extrinsic></Extrinsics></Part><Part name="Колодцы ВГ УОП-6" id="C75DAD70-73FE-4A80-AEA1-A178A692DD1F"><Desc>Колодцы ВГ УОП-6</Desc><Images><Image><URL xlink:title="Колодцы ВГ УОП-6" xlink:href="НВК\Колодцы ВГ УОП-6.bmp" xlink:show="embed" xlink:actuate="onLoad"/></Image></Images><TableRef><URL xlink:href="НВК\Колодцы ВГ УОП-6.xml"/></TableRef><Extrinsics><Extrinsic name="AeccPartSearchAttribList"><AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/></Extrinsic></Extrinsics></Part><Part name="Пример" id="B9A22237-2A9F-4A63-A89D-08F430C19DE8"><Desc>Пример</Desc><Images><Image><URL xlink:title="Пример" xlink:href="НВК\Пример.bmp" xlink:show="embed" xlink:actuate="onLoad"/></Image></Images><TableRef><URL xlink:href="НВК\Пример.xml"/></TableRef><Extrinsics><Extrinsic name="AeccPartSearchAttribList"><AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="Не определено" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/></Extrinsic></Extrinsics></Part></Chapter>
+	<Chapter name="НСС">НСС
+  <Desc>НСС</Desc>
+		<Part name="ККСр-2-10(80)ГЕК-ССД" id="5A272C72-A230-430F-8E41-7575E759E0A7">
+			<Desc>ККСр-2-10(80)ГЕК-ССД</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="ККСр-2-10(80)ГЕК-ССД" xlink:href="НСС\ККСр-2-10(80)ГЕК-ССД.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="НСС\ККСр-2-10(80)ГЕК-ССД.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Junction" part_subtype="ККСр-2-10(80)" part_shape="BoundingShape_Box" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+	</Chapter>
+	<Chapter name="ТС">ТС
+  <Desc>ТС</Desc>
+		<Part name="Камера прямоугольная с двумя горловинами" id="4678B9EC-4510-49C9-A07B-9F06204C2124">
+			<Desc>Камера прямоугольная  с двумя горловинами</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Камера прямоугольная  с двумя горловинами" xlink:href="ТС\Камера прямоугольная с двумя горловинами.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="ТС\Камера прямоугольная с двумя горловинами.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Heating_Chamber" part_subtype="Камера" part_shape="BoundingShape_Box" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Камера прямоугольная с одной горловиной" id="561DFC5F-35DF-4D92-8F87-D3652F1B00AC">
+			<Desc>Камера прямоугольная с одной горловиной</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Камера прямоугольная с одной горловиной" xlink:href="ТС\Камера прямоугольная с одной горловиной.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="ТС\Камера прямоугольная с одной горловиной.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Heating_Chamber" part_subtype="Камера" part_shape="BoundingShape_Box" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+		<Part name="Колодец цилиндрический" id="300DA755-4E96-4771-8570-40C203516E1B">
+			<Desc>Колодец цилиндрический</Desc>
+			<Images>
+				<Image>
+					<URL xlink:title="Колодец цилиндрический" xlink:href="ТС\Колодец цилиндрический.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+				</Image>
+			</Images>
+			<TableRef>
+				<URL xlink:href="ТС\Колодец цилиндрический.xml"/>
+			</TableRef>
+			<Extrinsics>
+				<Extrinsic name="AeccPartSearchAttribList">
+					<AeccPartSearchAttribList domain="Structure_Domain" part_type="Struct_Heating" part_subtype="Колодец теплосети" part_shape="BoundingShape_Cylinder" placeholder="False" hidepart="False"/>
+				</Extrinsic>
+			</Extrinsics>
+		</Part>
+	</Chapter>
+</pXML>

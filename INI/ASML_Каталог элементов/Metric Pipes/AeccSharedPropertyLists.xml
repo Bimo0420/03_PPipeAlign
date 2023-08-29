@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<LandPart desc="Part Table" version="1.0" xmlns:xlink="http://www.w3.org/1999/xlink" fixColumn="C1">
+	<ColumnConstView desc="Parameter-driven Display" id="CCV1" viewKey="3d" viewName="AeccPartRecipe">
+		<Images>
+			<Image>
+				<URL xlink:title="Part Reference Image" xlink:href="PathToBmp.bmp"/>
+			</Image>
+		</Images>
+		<Recipe>PathToDwg.dwg</Recipe>
+	</ColumnConstView>
+	<ColumnConstList desc="Материал" dataType="string" unit="" name="Material" id="CCL1" visible="1" context="Material_Type" index="0">
+		<Item id="i0">Напряженный железобетон</Item>
+		<Item id="i1">Гофрированная сталь</Item>
+		<Item id="i2">Пластичное железо</Item>
+		<Item id="i3">ПВХ</Item>
+		<Item id="i4">НПВХ</Item>
+		<Item id="i5">Ежики</Item>
+		<Item id="i6">Не определен материал</Item>
+		<Item id="i7">ПП</Item>
+		<Item id="i8">ПБ</Item>
+		<Item id="i9">ПЭВП</Item>
+		<Item id="i10">ВЧШГ</Item>
+		<Item id="i11">Сталь</Item>
+		<Item id="i12">ПНД</Item>
+	</ColumnConstList>
+</LandPart>

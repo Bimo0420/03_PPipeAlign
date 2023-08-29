@@ -1,0 +1,31 @@
+Начать проверку элемента | AeccStructRectSlabTopRectFrame_Metric
+
+Начать тест автопроверки семейства элементов
+Внутренняя проверка семейства элементов завершена, ошибок не обнаружено
+OK: Параметр домена элемента проверен -- Structure_Domain
+ОШИБКА: Тип параметра элемента не прошел проверку
+OK: Параметр подтипа элемента проверен -- Не определено
+OK: Параметр описания элемента проверен -- Прямоугольное обрамление прямоугольного колодца с крышкой SI
+OK: Параметр имени элемента проверен -- AeccStructRectSlabTopRectFrame_Metric
+OK: Параметр имени размера элемента найден
+ОК: уникальный идентификатор семейства элементов проверен -- A90411C9-3E16-48CA-BBFA-5FED1B7BC242
+OK: Параметр версии данных проверен, версия = 2.0
+OK: Строка таблицы, построенная по шаблону, успешно создана
+ 
+Начать проверку использования Кальк
+OK: Параметр Кальк PrtSN использует Context=Catalog_PartSizeName
+OK: Параметр Кальк LenA1 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA2 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA3 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenA4 использует Context=Geometry_Distance2D
+OK: Параметр Кальк LenB1 использует Context=Geometry_Distance3D
+OK: Параметр Кальк LenB2 использует Context=Geometry_Distance3D
+OK: Параметр Кальк SBSH использует Context=StructHeight
+OK: Параметр Кальк SBSL использует Context=StructLength
+OK: Параметр Кальк SBSW использует Context=StructWidth
+OK: Параметр Кальк SVPC использует Context=StructVertPipeClearance
+OK: Параметр Кальк WPOf1 использует Context=Geometry_WorkplaneOffset
+ 
+OK: Проверка запроса прошла успешно
+
+OK: Элемент проверен | Junction Structures with Frames\AeccStructRectSlabTopRectFrame_Metric.xml

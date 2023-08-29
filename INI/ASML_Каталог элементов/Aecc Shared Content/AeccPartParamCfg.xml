@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<!-- AeccParamCfg.xml file must be located in the Shared Content Directory-->
+<AeccParamConfigSet>
+    <!-- AeccParamDeclaration defines both internally managed and extended part data parameters -->
+    <AeccParamDeclaration>
+        <AeccDfSortGroup name="Свойства элемента" sortPriority="context">
+            <AeccDfParameter name="PrtSN" desc="Имя размера элемента" context="Catalog_PartSizeName" index="0" datatype="String" usage="String_Name" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="Mat" desc="Материал" context="Material_Type" index="0" datatype="String" usage="String_General" managelist="True" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="WTh" desc="Толщина стенки" context="WallThickness" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="WThP" desc="Толщина стенки трубы" context="WallThicknessPipe" index="0" datatype="Int" usage="Int_NonZeroNonNeg" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="FTh" desc="Толщина основания" context="FloorThickness" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="CSP" desc="Пользовательский размер" context="CustomSize" index="0" datatype="Bool" usage="Bool_General" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="CSS" desc="Форма поперечного сечения" context="SweptShape" index="0" datatype="String" usage="String_EnumKey" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="PID" desc="Внутренний диаметр трубы" context="PipeInnerDiameter" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="PODH" desc="Внешний диаметр или высота трубы" context="PipeOuterDiameterHeight" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="PODW" desc="Внешний диаметр или ширина трубы" context="PipeOuterDiameterWidth" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="PIW" desc="Внутренняя ширина трубы" context="PipeInnerWidth" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="DN" desc="Номинальный диаметр" context="DN" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True" />
+            <AeccDfParameter name="GOST" desc="Нормативный документ" context="GOST" index="0" datatype="String" usage="String_General" managelist="True" unit="" visible="True" internal="True"/>
+			<AeccDfParameter name="CON" desc="Соединение трубы" context="CON" index="0" datatype="String" usage="String_General" managelist="True" unit="" visible="True" internal="True"/>
+			<AeccDfParameter name="DNType" desc="Тип DN" context="DNType" index="0" datatype="String" usage="String_General" managelist="True" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="PIH" desc="Внутренняя высота трубы" context="PipeInnerHeight" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="SN" desc="Кольцевая жесткость" context="SN" index="0" datatype="String" usage="String_General" managelist="True" unit="" visible="True" internal="True"/>
+			<AeccDfParameter name="DBP" desc="Расстояние между трубами" context="DistanceBetweenPipes" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="PCS" desc="Количество труб в сечении" context="PipesCrossSection" index="0" datatype="Int" usage="Int_NonZeroNonNeg" unit="" visible="True" internal="True"/>
+			<AeccDfParameter name="PBR" desc="Количество труб в нижнем ряду" context="PipesBottomRow" index="0" datatype="Int" usage="Int_NonZeroNonNeg" unit="" visible="True" internal="True"/>
+			<AeccDfParameter name="PTR" desc="Количество труб в верхнем ряду" context="PipesTopRow" index="0" datatype="Int" usage="Int_NonZeroNonNeg" unit="" visible="True" internal="True"/>
+			<AeccDfParameter name="NOR" desc="Количество рядов труб" context="NumberOfRows" index="0" datatype="Int" usage="Int_NonZeroNonNeg" unit="" visible="True" internal="True"/>
+			<AeccDfParameter name="DBR" desc="Расстояние между рядами" context="DistanceBetweenRows" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <!--AeccDfParameter name="PIB" desc="Inner Pipe Bottom to Base Point" context="PipeInnerBottomToBasePt" index="0" datatype="Float" usage="Double_Distance" unit="mm" visible="True" internal="True"/-->
+            <AeccDfParameter name="MCR" desc="Минимальный радиус кривой" context="MinCurveRadius" index="0" datatype="Float" usage="Double_Distance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SBS" desc="Форма колодца" context="StructBoundingShape" index="0" datatype="String" usage="String_EnumKey" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="SBSH" desc="Высота колодца" context="StructHeight" index="0" datatype="Float" usage="Double_Distance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SBSD" desc="Диаметр колодца" context="StructDiameter" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SBSL" desc="Длина колодца" context="StructLength" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SBSW" desc="Ширина колодца" context="StructWidth" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SRS" desc="Высота от кромки до отстойника" context="StructRimToSumpHeight" index="0" datatype="Float" usage="Double_Distance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SBH" desc="Высота цилиндрической части" context="StructBarrelHeight" index="0" datatype="Float" usage="Double_Distance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SVPC" desc="Зазор вертикальной трубы" context="StructVertPipeClearance" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <!--AeccDfParameter name="SHPC" desc="Horizontal Pipe Clearance" context="StructHorizPipeClearance" index="0" datatype="Float" usage="Double_Distance" unit="mm" visible="True" internal="True"/-->
+            <AeccDfParameter name="SBPC" desc="Зазор цилиндрической части трубы" context="StructBarrelPipeClearance" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SCH" desc="Высота конуса" context="StructConeHeight" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SSTh" desc="Толщина перекрытия" context="StructSlabThickness" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SRZ" desc="Высота подступенка колодца" context="StructRiserHeight" index="1" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SID" desc="Внутренний диаметр колодца" context="StructInnerDiameter" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SIL" desc="Внутренняя длина колодца" context="StructInnerLength" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SIW" desc="Внутренняя ширина колодца" context="StructInnerWidth" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SF" desc="Коробка" context="StructFrame" index="0" datatype="String" usage="String_General" managelist="True" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="SG" desc="Решетка" context="StructGrate" index="0" datatype="String" usage="String_General" managelist="True" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="SC" desc="Покрытие" context="StructCover" index="0" datatype="String" usage="String_General" managelist="True" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="SFH" desc="Высота коробки" context="StructFrameHeight" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SFD" desc="Диаметр коробки" context="StructFrameDiameter" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SFL" desc="Длина коробки" context="StructFrameLength" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SFW" desc="Ширина коробки" context="StructFrameWidth" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SHBW" desc="Базовая ширина оголовка водовыпуска" context="StructHwBaseWidth" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SHBTh" desc="Базовая толщина оголовка водовыпуска" context="StructHwBaseThickness" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SHTW" desc="Ширина верха оголовка водовыпуска" context="StructHwTopWidth" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SHTTh" desc="Высота верха оголовка водовыпуска" context="StructHwTopThickness" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SWBH" desc="Высота задней части крыла" context="StructWngBackHeight" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SWFH" desc="Высота передней части крыла" context="StructWngFrontHeight" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SWL" desc="Длина крыла" context="StructWingLength" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SWTh" desc="Толщина крыла" context="StructWngThickness" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SABTh" desc="Толщина задней части лотка" context="StructApnBackThickness" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SAFTh" desc="Толщина передней части лотка" context="StructApnFrontThickness" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SAL" desc="Длина водобоя" context="StructApnLength" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+            <AeccDfParameter name="SAW" desc="Ширина водобоя" context="StructApnWidth" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="STO" desc="Смещение горловины" context="StructTopOffset" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="STD" desc="Диаметр горловины" context="StructTopDiam" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="CMBH" desc="Высота камеры" context="ChamberHeight" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="PTh" desc="Толщина плиты" context="PlateThickness" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="STOX" desc="Смещение горловины по Х" context="StructTopOffsetX" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="STOY" desc="Смещение горловины по У" context="StructTopOffsetY" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="MGE" desc="Механизм геометрии модели" context="Geometry_Engine" index="0" datatype="String" usage="String_General" unit="" visible="False" internal="True"/>
+		 	<AeccDfParameter name="KC9" desc="Кольцо стеновое 10(15).9" context="KC9" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="KC6" desc="Кольцо стеновое 10(15).6" context="KC6" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="KO6" desc="Кольцо опорное 6" context="KO6" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="ST" desc="Плита перекрытия" context="StructTile" index="0" datatype="String" usage="String_General" managelist="True" unit="" visible="True" internal="True"/>
+			<AeccDfParameter name="OPH" desc="Высота ОП" context="OPH" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="SWH" desc="Высота рабочей части" context="SWH" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="SH" desc="Высота горловины" context="SH" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="SGH" desc="Высота люка" context="SGH" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<AeccDfParameter name="PPH" desc="Высота ПП" context="PPH" index="0" datatype="Float" usage="Double_SmallDistance" unit="mm" visible="True" internal="True"/>
+			<!--AeccDfParameter name="Test" desc="Test Param" context="Test_Param" index="1" datatype="Float" usage="Double_NonZeroNonNeg" unit="" visible="True" internal="False"/-->
+        </AeccDfSortGroup>
+        <AeccDfSortGroup name="Геометрия" sortPriority="context">
+            <AeccDfParameter name="Path" desc="Path" context="PathGeometry" index="1" datatype="Float" usage="Double_Distance" unit="mm" visible="False" internal="True"/>
+            <AeccDfParameter name="PathC" desc="Траектория соединителя" context="PathGeometry_Connector" index="1" datatype="Float" usage="Double_Distance" unit="mm" visible="False" internal="True"/>
+            <AeccDfParameter name="PathA" desc="Угол траектории" context="PathAngle" index="1" datatype="Float" usage="Double_Angle" unit="deg" visible="True" internal="True"/>
+            <AeccDfParameter name="Bdy" desc="Геометрия корпуса" context="BodyGeometry" index="1" datatype="Float" usage="Double_Distance" unit="mm" visible="False" internal="True"/>
+            <AeccDfParameter name="BdyD" desc="Диаметр корпуса" context="BodyGeometry_Diameter" index="1" datatype="Float" usage="Double_Distance" unit="mm" visible="False" internal="True"/>
+            <AeccDfParameter name="BdySD" desc="Диаметр сегмента" context="BodyGeometry_SegmentDiameter" index="1" datatype="Float" usage="Double_Distance" unit="mm" visible="False" internal="True"/>
+            <AeccDfParameter name="ExtTh" desc="Толщина выдавливания" context="BodyGeometry_ExtrudedThickness" index="1" datatype="Float" usage="Double_Distance" unit="mm" visible="False" internal="True"/>
+            <AeccDfParameter name="ASC" desc="Счетчик сегментов дуги" context="BodyGeometry_ArcSegmentCount" index="1" datatype="Int" usage="Int_NonZeroNonNeg" unit="" visible="False" internal="True"/>
+            <AeccDfParameter name="CLine" desc="Осевая линия" context="Geometry_CenterLinePath" index="1" datatype="Float" usage="Double_Distance" unit="mm" visible="False" internal="True"/>
+            <AeccDfParameter name="Cnst" desc="Вспомогательная геометрия" context="Geometry_Construction" index="1" datatype="Float" usage="Double_Distance" unit="mm" visible="False" internal="True"/>
+            <AeccDfParameter name="LenA" desc="2D-расстояние" context="Geometry_Distance2D" index="1" datatype="Float" usage="Double_Distance" unit="mm" visible="False" internal="True"/>
+            <AeccDfParameter name="LenB" desc="3D-расстояние" context="Geometry_Distance3D" index="1" datatype="Float" usage="Double_Distance" unit="mm" visible="False" internal="True"/>
+            <AeccDfParameter name="WPOf" desc="Смещение рабочей плоскости" context="Geometry_WorkplaneOffset" index="1" datatype="Float" usage="Double_Distance" unit="mm" visible="False" internal="True"/>
+            <AeccDfParameter name="MPar" desc="Параметр модели" context="Geometry_ModelParameter" index="1" datatype="Float" usage="Double_NonZeroNonNeg" unit="" visible="False" internal="True"/>
+            <AeccDfParameter name="MParA" desc="Параметр угла модели" context="Geometry_ModelAngleParameter" index="1" datatype="Float" usage="Double_Angle" unit="deg" visible="False" internal="True"/>
+            <AeccDfParameter name="MParL" desc="Параметр размера модели" context="Geometry_ModelDistanceParameter" index="1" datatype="Float" usage="Double_Distance" unit="mm" visible="False" internal="True"/>
+        </AeccDfSortGroup>
+        <AeccDfSortGroup name="Запись каталога" sortPriority="context">
+            <AeccDfParameter name="PDom" desc="Домен элемента" context="Catalog_Domain" index="0" datatype="String" usage="String_EnumKey" unit="" visible="False" internal="True"/>
+            <AeccDfParameter name="PTyp" desc="Тип элемента" context="Catalog_PartType" index="0" datatype="String" usage="String_EnumKey" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="PSTyp" desc="Подтип элемента" context="Catalog_SubType" index="0" datatype="String" usage="String_General" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="PrtNm" desc="Имя элемента" context="Catalog_PartName" index="0" datatype="String" usage="String_Name" unit="" visible="False" internal="True"/>
+            <AeccDfParameter name="PrtD" desc="Описание элемента" context="Catalog_PartDesc" index="0" datatype="String" usage="String_Name" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="PrtID" desc="Код элемента" context="Catalog_PartID" index="0" datatype="String" usage="String_Guid" unit="" visible="False" internal="True"/>
+            <AeccDfParameter name="PrtUS" desc="URL-адрес исходного элемента" context="SourcePartUrl" index="0" datatype="String" usage="String_General" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="CatID" desc="Идентификатор каталога" context="Catalog_ID" index="0" datatype="String" usage="String_Guid" unit="" visible="False" internal="True"/>
+            <AeccDfParameter name="CatIS" desc="Идентификатор исходного каталога" context="SourceCatalogID" index="0" datatype="String" usage="String_Guid" unit="" visible="False" internal="True"/>
+            <AeccDfParameter name="CatUS" desc="URL-адрес исходного каталога" context="SourceCatalogUrl" index="0" datatype="String" usage="String_General" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="CusSF" desc="Флаг пользовательского размера" context="CustomPartSizing_Flag" index="0" datatype="Bool" usage="Bool_General" unit="" visible="False" internal="True"/>
+            <AeccDfParameter name="PlcHF" desc="Флажок символа подстановки" context="Placeholder_Flag" index="0" datatype="Bool" usage="Bool_General" unit="" visible="True" internal="True"/>
+            <AeccDfParameter name="HPrtF" desc="Флаг скрытия элемента" context="Catalog_PartHide" index="0" datatype="Bool" usage="Bool_General" unit="" visible="False" internal="True"/>
+        </AeccDfSortGroup>
+        <AeccDfSortGroup name="Отслеживание данных" sortPriority="context">
+            <AeccDfParameter name="BTRowID" desc="Идентификатор строки" context="Catalog_BasicTableRowID" index="0" datatype="String" usage="String_Guid" unit="" visible="False" internal="True"/>
+            <AeccDfParameter name="DVer" desc="Версия данных" context="DataVersion" index="0" datatype="String" usage="String_General" unit="" visible="False" internal="True"/>
+            <AeccDfParameter name="CntTy" desc="Тип содержимого" context="Content_Type" index="0" datatype="Int" usage="String_EnumKey" unit="" visible="False" internal="True"/>
+        </AeccDfSortGroup>
+        <AeccDfSortGroup name="Разное" sortPriority="context">
+            <!--AeccDfParameter name="CDF" desc="Custom Data (Float)" context="CustomDataFloat" index="1" datatype="Float" usage="Double_General" unit="" visible="True" internal="True"/-->
+            <!--AeccDfParameter name="CDI" desc="Custom Data (Int)" context="CustomDataInt" index="1" datatype="Int" usage="Int_General" unit="" visible="True" internal="True"/-->
+            <!--AeccDfParameter name="CDS" desc="Custom Data (String)" context="CustomDataString" index="1" datatype="String" usage="String_General" unit="" visible="True" internal="True"/-->
+            <!--AeccDfParameter name="CDB" desc="Custom Data (Bool)" context="CustomDataBool" index="1" datatype="Bool" usage="Bool_General" unit="" visible="True" internal="True"/-->
+            <AeccDfParameter name="CTest" desc="Проверка условия" context="Conditional_Test" index="1" datatype="Bool" usage="Bool_General" unit="" visible="False" internal="True"/>
+            <AeccDfParameter name="STest" desc="Проверка правильности размера элемента" context="PartSizeValidation_Test" index="1" datatype="Bool" usage="Bool_General" unit="" visible="False" internal="True"/>
+        </AeccDfSortGroup>
+    </AeccParamDeclaration>
+    <AeccParamUsage>
+        <AeccPartDomainCfg domain="Pipe_Domain">
+            <AeccReqParam context="SweptShape"/>
+            <AeccPartTypeCfg type="Pipe" desc="Труба">
+				<AeccReqParam context="WallThickness"/>
+				<AeccShpParam context="PipeInnerDiameter"/>
+				<AeccShpParam context="PipeInnerHeight"/>
+				<AeccShpParam context="PipeInnerWidth"/>
+                <AeccOptParam context="PipeOuterDiameterHeight"/>
+				<AeccOptParam context="PipeOuterDiameterWidth"/>
+                <AeccOptParam context="Material_Type"/>
+                <AeccOptParam context="MinCurveRadius"/>
+				<AeccOptParam context="PipesCrossSection"/>
+				<AeccOptParam context="DistanceBetweenPipes"/>
+				<AeccOptParam context="DN"/>
+				<AeccOptParam context="CON"/>
+				<AeccOptParam context="GOST"/>
+				<AeccOptParam context="DNType"/>
+				<AeccOptParam context="SN"/>
+				<AeccOptParam context="PipesBottomRow"/>
+				<AeccOptParam context="PipesTopRow"/>
+				<AeccOptParam context="NumberOfRows"/>
+				<AeccOptParam context="DistanceBetweenRows"/>
+				<AeccOptParam context="WallThicknessPipe"/>
+			</AeccPartTypeCfg>
+        </AeccPartDomainCfg>
+        <AeccPartDomainCfg domain="Structure_Domain">
+            <AeccReqParam context="StructBoundingShape"/>
+            <AeccReqParam context="StructVertPipeClearance"/>
+            <AeccShpParam context="StructHeight"/>
+            <AeccShpParam context="StructDiameter"/>
+            <AeccShpParam context="StructWidth"/>
+            <AeccShpParam context="StructLength"/>
+            <AeccOptParam context="Material_Type"/>
+            <AeccOptParam context="PartSizeValidation_Test"/>
+            <AeccPartTypeCfg type="Struct_Junction" desc="Соединительный элемент">
+                <AeccReqParam context="StructRimToSumpHeight"/>
+                <AeccReqParam context="WallThickness"/>
+                <AeccReqParam context="FloorThickness"/>
+                <AeccOptParam context="StructFrame"/>
+                <AeccOptParam context="StructGrate"/>
+                <AeccOptParam context="StructCover"/>
+				<AeccOptParam context="StructTile"/>
+                <AeccOptParam context="StructFrameHeight"/>
+                <AeccOptParam context="StructFrameDiameter"/>
+                <AeccOptParam context="StructFrameLength"/>
+                <AeccOptParam context="StructFrameWidth"/>
+                <AeccOptParam context="StructFrameHeight"/>
+                <AeccOptParam context="StructBarrelHeight"/>
+                <AeccOptParam context="StructBarrelPipeClearance"/>
+                <AeccOptParam context="StructConeHeight"/>
+                <AeccOptParam context="StructSlabThickness"/>
+                <AeccOptParam context="StructRiserHeight"/>
+                <AeccOptParam context="StructInnerDiameter"/>
+                <AeccOptParam context="StructInnerLength"/>
+                <AeccOptParam context="StructInnerWidth"/>
+				<AeccOptParam context="KC9"/>
+				<AeccOptParam context="KC6"/>
+				<AeccOptParam context="KO6"/>
+				<AeccOptParam context="OPH"/>
+				<AeccOptParam context="PPH"/>
+				<AeccOptParam context="SWH"/>
+				<AeccOptParam context="SH"/>
+				<AeccOptParam context="SGH"/>
+			</AeccPartTypeCfg> 
+			<AeccPartTypeCfg type="Struct_Heating" desc="Колодец теплосети">
+				<AeccOptParam context="StructBarrelHeight"/>
+				<AeccOptParam context="StructTopOffset"/>
+				<AeccOptParam context="StructTopDiam"/>
+            </AeccPartTypeCfg>
+			<AeccPartTypeCfg type="Struct_Heating_Chamber" desc="Камера теплосети">
+				<AeccReqParam context="StructLength"/>
+				<AeccReqParam context="StructWidth"/>
+				<AeccReqParam context="StructHeight"/>
+				<AeccOptParam context="StructTopDiam"/>
+				<AeccOptParam context="ChamberHeight"/>
+				<AeccOptParam context="PlateThickness"/>
+				<AeccOptParam context="StructTopOffsetX"/>
+				<AeccOptParam context="StructTopOffsetY"/>
+            </AeccPartTypeCfg>
+            <AeccPartTypeCfg type="Struct_InletOutlet" desc="Водоприемники и водовыпуски">
+                <AeccReqParam context="StructHwBaseWidth"/>
+                <AeccReqParam context="StructHwBaseThickness"/>
+                <AeccOptParam context="StructLength"/>
+                <!--AeccOptParam context="StructHwTopWidth"/-->
+                <!--AeccOptParam context="StructHwTopThickness"/-->
+                <!--AeccOptParam context="StructWngBackHeight"/-->
+                <!--AeccOptParam context="StructWngFrontHeight"/-->
+                <!--AeccOptParam context="StructWingLength"/-->
+                <!--AeccOptParam context="StructWngThickness"/-->
+                <!--AeccOptParam context="StructApnBackThickness"/-->
+                <!--AeccOptParam context="StructApnFrontThickness"/-->
+                <!--AeccOptParam context="StructApnLength"/-->
+                <!--AeccOptParam context="StructApnWidth"/-->
+            </AeccPartTypeCfg>
+            <AeccPartTypeCfg type="Struct_General" desc="Элемент общего назначения">
+            </AeccPartTypeCfg>
+            <!--AeccPartTypeCfg type="Struct_Null" desc="Null Structure"-->
+            <!--/AeccPartTypeCfg-->
+        </AeccPartDomainCfg>
+    </AeccParamUsage>
+</AeccParamConfigSet>

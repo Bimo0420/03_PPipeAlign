@@ -1,0 +1,26 @@
+Начать проверку элемента | AeccStructConcentricCylinderNF_Metric
+
+Начать тест автопроверки семейства элементов
+Внутренняя проверка семейства элементов завершена, ошибок не обнаружено
+OK: Параметр домена элемента проверен -- Structure_Domain
+ОШИБКА: Тип параметра элемента не прошел проверку
+OK: Параметр подтипа элемента проверен -- Не определено
+OK: Параметр описания элемента проверен -- Концентрический цилиндрический колодец NF SI
+OK: Параметр имени элемента проверен -- AeccStructConcentricCylinderNF_Metric
+OK: Параметр имени размера элемента найден
+ОК: уникальный идентификатор семейства элементов проверен -- 9D1237FA-055D-459C-AAF0-ECD78CC03743
+OK: Параметр версии данных проверен, версия = 2.0
+OK: Строка таблицы, построенная по шаблону, успешно создана
+ 
+Начать проверку использования Кальк
+OK: Параметр Кальк PrtSN использует Context=Catalog_PartSizeName
+OK: Параметр Кальк BdyD3 использует Context=BodyGeometry_Diameter
+OK: Параметр Кальк LenB2 использует Context=Geometry_Distance3D
+OK: Параметр Кальк SBSD использует Context=StructDiameter
+OK: Параметр Кальк SBSH использует Context=StructHeight
+OK: Параметр Кальк SVPC использует Context=StructVertPipeClearance
+OK: Параметр Кальк WPOf2 использует Context=Geometry_WorkplaneOffset
+ 
+OK: Проверка запроса прошла успешно
+
+OK: Элемент проверен | Junction Structures without Frames\AeccStructConcentricCylinderNF_Metric.xml

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<LandPart desc="Part Table" version="1.0" xmlns:xlink="http://www.w3.org/1999/xlink" fixColumn="C1">
+	<ColumnConstView desc="Parameter-driven Display" id="CCV1" viewKey="3d" viewName="AeccPartRecipe">
+		<Images>
+			<Image>
+				<URL xlink:title="Part Reference Image" xlink:href="НВК\Колодцы водосточные СК 2201-88.bmp"/>
+			</Image>
+		</Images>
+		<Recipe>НВК\Колодцы водосточные СК 2201-88.dwg</Recipe>
+	</ColumnConstView>
+	<ColumnUnique desc="Primary Key" datatype="string" name="UUID" visible="0">
+		<RowUnique id="r0">6CBAAA4B-4C93-4E7C-ABA9-0383291CD526</RowUnique>
+		<RowUnique id="r1">6140A088-70B1-449A-845B-7237FF667AC2</RowUnique>
+		<RowUnique id="r2">71C3A9D9-74DB-4747-A8F1-4C6E698756FE</RowUnique>
+	</ColumnUnique>
+	<Column desc="Диаметр колодца" dataType="float" unit="mm" name="SID" id="C1" visible="1" context="StructInnerDiameter" index="0">
+		<Row id="r0">1250.0000</Row>
+		<Row id="r1">1500.0000</Row>
+		<Row id="r2">2000.0000</Row>
+	</Column>
+	<Column desc="Коробка" dataType="string" unit="" name="SF" id="C2" visible="1" context="StructFrame" index="0">
+		<Row id="r0">ВГ-12</Row>
+		<Row id="r1">ВГ-15</Row>
+		<Row id="r2">ВГ-20</Row>
+	</Column>
+	<ColumnRangeList desc="Высота колодца" dataType="float" unit="mm" name="SRS" id="CCR1" visible="1" context="StructRimToSumpHeight" index="0">
+		<Item id="i0" rangeVal="Min">1980.0000</Item>
+		<Item id="i1" rangeVal="Max">2000000.0000</Item>
+		<Item id="i2" rangeVal="Default">1980.0000</Item>
+	</ColumnRangeList>
+	<ColumnConst desc="Домен элемента" dataType="string" unit="" name="PDom" id="CC0" visible="0" context="Catalog_Domain" index="0">Structure_Domain</ColumnConst>
+	<ColumnConst desc="Тип элемента" dataType="string" unit="" name="PTyp" id="CC1" visible="1" context="Catalog_PartType" index="0">Struct_Junction</ColumnConst>
+	<ColumnConst desc="Подтип элемента" dataType="string" unit="" name="PSTyp" id="CC2" visible="1" context="Catalog_SubType" index="0">Undefined</ColumnConst>
+	<ColumnConst desc="Имя элемента" dataType="string" unit="" name="PrtNm" id="CC3" visible="0" context="Catalog_PartName" index="0">Колодцы водосточные СК 2201-88</ColumnConst>
+	<ColumnConst desc="Описание элемента" dataType="string" unit="" name="PrtD" id="CC4" visible="1" context="Catalog_PartDesc" index="0">Колодцы водосточные СК 2201-88</ColumnConst>
+	<ColumnConst desc="Код элемента" dataType="string" unit="" name="PrtID" id="CC5" visible="0" context="Catalog_PartID" index="0">6068FBDC-62C4-411E-822B-F6DD7D7C9AF6</ColumnConst>
+	<ColumnConst desc="Версия данных" dataType="string" unit="" name="DVer" id="CC6" visible="0" context="DataVersion" index="0">2.0</ColumnConst>
+	<ColumnConst desc="Тип содержимого" dataType="int" unit="" name="CntTy" id="CC7" visible="0" context="Content_Type" index="0">4</ColumnConst>
+	<ColumnConst desc="Флаг скрытия элемента" dataType="bool" unit="" name="HPrtF" id="CC8" visible="0" context="Catalog_PartHide" index="0">0</ColumnConst>
+	<ColumnConst desc="Форма колодца" dataType="string" unit="" name="SBS" id="CC9" visible="1" context="StructBoundingShape" index="0">BoundingShape_Cylinder</ColumnConst>
+	<ColumnConst desc="Толщина стенки" dataType="float" unit="mm" name="WTh" id="CC10" visible="1" context="WallThickness" index="0">0.0001</ColumnConst>
+	<ColumnConst desc="Floor Thickness" dataType="float" unit="mm" name="FTh" id="CC11" visible="1" context="FloorThickness" index="0">0.0001</ColumnConst>
+	<ColumnConst desc="Custom Sizing Flag" dataType="bool" unit="" name="CusSF" id="CC12" visible="0" context="CustomPartSizing_Flag" index="0">0</ColumnConst>
+	<ColumnConst desc="Vertical Pipe Clearance" dataType="float" unit="mm" name="SVPC" id="CC13" visible="1" context="StructVertPipeClearance" index="0">200.0000</ColumnConst>
+	<ColumnConst desc="Внутренняя длина колодца" dataType="float" unit="mm" name="SIL" id="CC14" visible="1" context="StructInnerLength" index="0">0.0000</ColumnConst>
+	<ColumnCalc desc="Имя размера элемента" dataType="string" unit="" name="PrtSN" id="CCA0" visible="1" context="Catalog_PartSizeName" index="0">"Колодец - " + "$SF" + " ∅ " + FormatNumber($SID,0)</ColumnCalc>
+	<ColumnCalc desc="Body Diameter  1" dataType="float" unit="mm" name="BdyD1" id="CCA1" visible="0" context="BodyGeometry_Diameter" index="1">$SID + (2.0 * ($WTh-0.0001))</ColumnCalc>
+	<ColumnCalc desc="Cylinder Body Height" dataType="float" unit="mm" name="LenB1" id="CCA2" visible="1" context="Geometry_Distance3D" index="1">$SRS + $FTh-0.0001</ColumnCalc>
+	<ColumnCalc desc="Диаметр колодца" dataType="float" unit="mm" name="SBSD" id="CCA3" visible="1" context="StructDiameter" index="0">$SID + (2.0 * ($WTh - 0.0001))</ColumnCalc>
+	<ColumnCalc desc="Высота колодца" dataType="float" unit="mm" name="SBSH" id="CCA4" visible="1" context="StructHeight" index="0">$SRS + $FTh - 0.0001</ColumnCalc>
+</LandPart>
